@@ -1,0 +1,15 @@
+{
+  "name": "new-bankruptcy-visual-tests",
+  "version": "1.0.0",
+  "description": "Tests https://bankrot.fedresurs.ru/",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Vasiliy Lovygin",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.6",
+    "allure-playwright": "^2.11.1",
+    "dotenv": "^16.4.1"
+  }
+}

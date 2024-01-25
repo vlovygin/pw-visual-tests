@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://bankrot.fedresurs.ru",
+      "localStorage": [
+        {
+          "name": "cookie-accepted",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}

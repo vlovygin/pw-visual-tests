@@ -1,0 +1,14 @@
+services:
+
+  app:
+    tty: true
+    build: .
+    image: new-bankruptcy-visual-tests
+    #    ipc: host
+    #    init: true
+    env_file:
+      - .env
+    volumes:
+      - ./main:/work/main
+      - ./allure-results:/work/allure-results
+    command: ${RUN_CMD:-npx playwright test --project=chromium}
